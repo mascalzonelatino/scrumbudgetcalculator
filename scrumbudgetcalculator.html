@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrum Budget Calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Scrum Budget Calculator">
+  <meta name="author" content="Salvatore Rinaldo">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Scrum Budget Calculator</h1>
+    <h2>How much are you investing in Scrum?</h2>
+    <p>Salvatore Rinaldo<br/>Scrum Master</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Why?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Many software organisations adopt Scrum as their development methodology.</p>
+
+<p>However, often environmental barriers exist and prevent product teams from
+being able to fully embrace and leverage the principles and the techniques
+suggested by the Scrum community. </p>
+
+<p>As a Scrum Master, I find that one of the ways to raise awareness around
+this relatively new methodoloy and the impact it has on your organisation
+is to fully understand the impact - including the financial impact - that
+adopting Scrum has on your business. </p>
+
+<p>Are you adopting Scrum? Do you know how much you are investing in it?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>How does it work?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Scrum Budget Calculator predicts your annual estimated cost based on simple 
+parameters that are specific to your organisation. </p>
+
+<p>To obtain an annual estimated cost simply enter the following parameters in the UI:</p>
+
+<ul>
+<li>size of your team, including Scrum Master and Product Owner</li>
+<li>the average annual salary for a member of your team</li>
+<li>the number of working hours per day</li>
+<li>the duration of your iterations (between 1 and 4 weeks)</li>
+<li>number of attendees at review and retrospective meetings</li>
+</ul>
+
+<p>Cost figures are meant to be currency independent. 
+For example, the annual cost predicted for a team of 10 working on
+2 week iterations (for 7.5 hours a day and 5 days a week) is simply: </p>
+
+<pre><code>## [1] 32000
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Underlying assumptions</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>the size of the team includes the Product Owner and the Scrum Master.</li>
+<li>daily standups (a Scrum ceremony) will normally last 15 minutes a day</li>
+<li>daily standups will not take place on sprint planning and end of sprint days.</li>
+<li>iterations (a.k.a. &#39;sprints&#39;) are between 1 week and 4 weeks long</li>
+<li>2 hours are sufficient to plan a 1 week iteration; 4 hours for a 2 week iteration ...<br></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Future developments</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>These are some of the features that are high on our backlog: </p>
+
+<ul>
+<li>break down and display of cost by ceremony </li>
+<li>backlog refinement meetings will be added to the list of Scrum ceremonies</li>
+<li>general UI and layout improvements </li>
+</ul>
+
+<p>For more info, visit <a href="https://salrin.shinyapps.io/scrumbudgetcalculator">https://salrin.shinyapps.io/scrumbudgetcalculator</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Why?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='How does it work?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Underlying assumptions'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Future developments'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
